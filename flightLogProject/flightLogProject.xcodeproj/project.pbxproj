@@ -1,0 +1,100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		2142B6F91725AB98006B9252 /* settings.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = settings.py; path = ../flightLog/settings.py; sourceTree = "<group>"; };
+		2142B6FA1725AB98006B9252 /* urls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = urls.py; path = ../flightLog/urls.py; sourceTree = "<group>"; };
+		2142B6FB1725ABB5006B9252 /* admin.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = admin.py; path = ../flights/admin.py; sourceTree = "<group>"; };
+		2142B6FC1725ABB5006B9252 /* models.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = models.py; path = ../flights/models.py; sourceTree = "<group>"; };
+		2142B6FD1725ABB5006B9252 /* views.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = views.py; path = ../flights/views.py; sourceTree = "<group>"; };
+		2142B6FE1725BE0C006B9252 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../flights/templates/index.html; sourceTree = "<group>"; };
+		2142B6FF1725BEC6006B9252 /* settings.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = settings.py; path = ../../FirstBlogTutorial/FirstBlogTutorial/settings.py; sourceTree = "<group>"; };
+		2142B7011725BF10006B9252 /* urls.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = urls.py; path = ../../FirstBlogTutorial/FirstBlogTutorial/urls.py; sourceTree = "<group>"; };
+		2142B7021725BF2F006B9252 /* models.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = models.py; path = ../../FirstBlogTutorial/blog/models.py; sourceTree = "<group>"; };
+		2142B7031725BF2F006B9252 /* views.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = views.py; path = ../../FirstBlogTutorial/blog/views.py; sourceTree = "<group>"; };
+		2142B7041725C26F006B9252 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../../FirstBlogTutorial/blog/templates/index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2142B6F21725AB75006B9252 = {
+			isa = PBXGroup;
+			children = (
+				2142B6F91725AB98006B9252 /* settings.py */,
+				2142B6FB1725ABB5006B9252 /* admin.py */,
+				2142B6FC1725ABB5006B9252 /* models.py */,
+				2142B6FD1725ABB5006B9252 /* views.py */,
+				2142B6FA1725AB98006B9252 /* urls.py */,
+				2142B6FE1725BE0C006B9252 /* index.html */,
+				2142B7001725BECC006B9252 /* Tutorial */,
+			);
+			sourceTree = "<group>";
+		};
+		2142B7001725BECC006B9252 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				2142B7041725C26F006B9252 /* index.html */,
+				2142B6FF1725BEC6006B9252 /* settings.py */,
+				2142B7011725BF10006B9252 /* urls.py */,
+				2142B7021725BF2F006B9252 /* models.py */,
+				2142B7031725BF2F006B9252 /* views.py */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		2142B6F31725AB75006B9252 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 2142B6F61725AB75006B9252 /* Build configuration list for PBXProject "flightLogProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2142B6F21725AB75006B9252;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		2142B6F71725AB76006B9252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2142B6F81725AB76006B9252 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2142B6F61725AB75006B9252 /* Build configuration list for PBXProject "flightLogProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2142B6F71725AB76006B9252 /* Debug */,
+				2142B6F81725AB76006B9252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2142B6F31725AB75006B9252 /* Project object */;
+}
