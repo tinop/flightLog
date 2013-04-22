@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     url(r'^$', 'flights.views.home', name='home'),
     # url(r'^flightLog/', include('flightLog.foo.urls')),
 
-    url(r'^grappelli/', include('grappelli.urls')),
+    # url(r'^grappelli/', include('grappelli.urls')),
     
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
