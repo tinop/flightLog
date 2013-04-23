@@ -13,14 +13,14 @@ class Aircraft(models.Model):
    registration = models.CharField(max_length=6, choices=REGISTRATIONS)
 
    def __unicode__(self):
-       return self.registration
+       return self.get_model_display() + " : " + self.get_registration_display()
 
 class Pilot(models.Model):
    first_name = models.CharField(max_length=15)
    last_name = models.CharField(max_length=15)
        
    def __unicode__(self):
-       return self.last_name
+       return self.first_name + " " +self.last_name
 
 class Flight(models.Model):
    aircraft = models.ForeignKey(Aircraft)
