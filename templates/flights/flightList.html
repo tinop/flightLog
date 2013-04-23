@@ -29,8 +29,8 @@
                 <td>{{ flight.aircraft }}</td>
                 <td>{{ flight.fromAirport }}</td>
                 <td>{{ flight.toAirport }}</td>
-                <td>{{ flight.flightTime|time:"H:i"}}</td>
-                <td>{{ flight.departure_time|time:"H:i"}}</td>
+                <td>{{ flight.flightTimeFormatted}}</td>
+                <td>{{ flight.pic}}</td>
                 <td>{{ flight.landings|stringformat:"03d" }}</td>
                 <td><a href="matchlog.html{{players_query_prefix}}{{ game.playerOne_id }}{{ranking_query}}">{{ game.playerOne.get_full_name }}</a> vs. <a href="matchlog.html{{players_query_prefix}}{{ game.playerTwo_id }}{{ranking_query}}">{{ game.playerTwo.c }}</a></td>
               </tr>
